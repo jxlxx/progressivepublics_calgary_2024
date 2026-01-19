@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: "VulfMonoItalic";
-  src: url("/fonts/VulfMonoDemo-Italic.otf") format("opentype");
+  src: url("../fonts/VulfMonoDemo-Italic.otf") format("opentype");
   font-style: italic;
   font-weight: 400;
   font-display: swap;
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: "VulfMonoLightItalic";
-  src: url("/fonts/VulfMonoDemo-LightItalic.otf") format("opentype");
+  src: url("../fonts/VulfMonoDemo-LightItalic.otf") format("opentype");
   font-style: italic;
   font-weight: 100;
   font-display: swap;
@@ -17,26 +17,26 @@
 
 @font-face {
   font-family: "VulfMono";
-  src: url("/fonts/VulfMonoDemo-Regular.otf") format("opentype");
+  src: url("../fonts/VulfMonoDemo-Regular.otf") format("opentype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "FiraCode";
-  src: url("/fonts/FiraCode-Regular.ttf") format("truetype");
+  src: url("../fonts/FiraCode-Regular.ttf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "FiraCodeLight";
-  src: url("/fonts/FiraCode-Light.ttf") format("truetype");
+  src: url("../fonts/FiraCode-Light.ttf") format("truetype");
   font-weight: 100;
   font-display: swap;
 }
 
 @font-face {
   font-family: "FiraCodeBold";
-  src: url("/fonts/FiraCode-Bold.ttf") format("truetype");
+  src: url("../fonts/FiraCode-Bold.ttf") format("truetype");
   font-weight: 700;
   font-display: swap;
 }
