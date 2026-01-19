@@ -40,7 +40,10 @@
   font-weight: 700;
   font-display: swap;
 }
-
+/* Increase the default font size */
+html {
+  font-size: 10pt;
+}
 /* ensure all headings use that font */
 h1 {
   font-family: "VulfMonoLightItalic", var(--font-sans);
@@ -81,12 +84,12 @@ a:hover {
 }
 
 .shrink {
-  color: rgb(203, 107, 28);
+  /* color: rgb(203, 107, 28); */
 }
 
 a.shrink {
-  color: rgb(203, 107, 28);
-  font-family: "VulfMonoLightItalic", var(--font-sans);
-  font-style: italic;
+  /* color: rgb(203, 107, 28); */
+  /* font-family: "VulfMonoLightItalic", var(--font-sans); */
+  /* font-style: italic; */
   font-weight: inherit;
 }
