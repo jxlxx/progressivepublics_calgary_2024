@@ -1,5 +1,5 @@
 ---
-title: "Conférences passées"
+title: ""
 layout: "simple"
 ---
 
