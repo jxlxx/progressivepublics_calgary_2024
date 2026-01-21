@@ -1,31 +1,9 @@
 
 @font-face {
-  font-family: "VulfMonoItalic";
-  src: url("../fonts/VulfMonoDemo-Italic.otf") format("opentype");
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
   font-family: "VulfMonoLightItalic";
   src: url("../fonts/VulfMonoDemo-LightItalic.otf") format("opentype");
   font-style: italic;
   font-weight: 100;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "IBMSelectricLightItalic";
-  src: url("../fonts/IBM_Selectric_Light_Italic.ttf") format("truetype");
-  font-style: italic;
-  font-weight: 100;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "VulfMono";
-  src: url("../fonts/VulfMonoDemo-Regular.otf") format("opentype");
   font-display: swap;
 }
 
@@ -48,15 +26,27 @@
   font-weight: 700;
   font-display: swap;
 }
-/* Increase the default font size */
+
+@font-face {
+  font-family: "IBMSelectricLightItalic";
+  src: url("../fonts/IBM_Selectric_Light_Italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+}
+
+/* Decrease the default font size */
 html {
   font-size: 10pt;
 }
+
 /* ensure all headings use that font */
 h1 {
   font-family: "VulfMonoLightItalic", "IBMSelectricLightItalic";
   font-style: italic;
   font-weight: inherit;
+  font-size: 3em; /* Selectric is really small for some reason ! */
+  text-transform: uppercase; 
   color: rgb(203, 107, 28);
 }
 
@@ -92,12 +82,13 @@ a:hover {
 }
 
 .shrink {
-  /* color: rgb(203, 107, 28); */
+  font-family: "IBMSelectricLightItalic";
+  text-transform: uppercase; 
+  font-size: 1.5em;
 }
 
 a.shrink {
-  /* color: rgb(203, 107, 28); */
-  /* font-family: "VulfMonoLightItalic", var(--font-sans); */
-  /* font-style: italic; */
+  font-family: "VulfMonoLightItalic", "IBMSelectricLightItalic";
+  text-transform: uppercase; 
   font-weight: inherit;
 }

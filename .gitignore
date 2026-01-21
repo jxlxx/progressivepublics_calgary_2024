@@ -3,3 +3,4 @@ resources/
 .DS_Store
 .hugo*
 .env*
+*Vulf*
