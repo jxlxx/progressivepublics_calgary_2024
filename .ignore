@@ -1,8 +1,12 @@
 !.ignore
 !.gitignore
+!.github
+!.env*
 
 themes/blowfish
 public
 resources
 go.mod
-# static
+static/fonts
+*.jpeg
+*.jpg
